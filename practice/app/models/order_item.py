@@ -1,8 +1,8 @@
 from django.db import models
 
-from practice.app.models.order import Order
-from practice.app.models.product import Product
-from practice.app.models.shop import Shop
+from app.models.order import Order
+from app.models.product import Product
+from app.models.shop import Shop
 
 
 class OrderItem(models.Model):

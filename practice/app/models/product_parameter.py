@@ -1,8 +1,8 @@
-from practice.app.models.parameter import Parameter
+from app.models.parameter import Parameter
 
 from django.db import models
 
-from practice.app.models.product_info import ProductInfo
+from app.models.product_info import ProductInfo
 
 
 class ProductParameter(models.Model):

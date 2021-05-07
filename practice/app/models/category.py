@@ -1,6 +1,6 @@
 from django.db import models
 
-from practice.app.models.shop import Shop
+from app.models.shop import Shop
 
 
 class Category(models.Model):
